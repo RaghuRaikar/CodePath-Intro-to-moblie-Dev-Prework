@@ -7,17 +7,22 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController{
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
+    
+    @IBOutlet weak var TextField: UITextField!
     var colors = [UIColor.red, UIColor.green, UIColor.orange, UIColor.yellow, UIColor.brown, UIColor.purple, UIColor.darkGray]
     var color_counter = 0
     var color : String!
     @IBOutlet weak var TextLabel: UILabel!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+    
+    
+    
     @IBAction func ButtonClicked(_ sender: Any) {
         print("Hello")
         TextLabel.textAlignment = .center
@@ -40,15 +45,15 @@ class ViewController: UIViewController {
     }
     
     
+    
     @IBAction func Tap(_ sender: Any) {
-        TextLabel.text = "Hello World";
+        TextLabel.text = "Hello from Raghu!";
         TextLabel.textColor = UIColor.green
         view.backgroundColor = UIColor.systemTeal
         
     }
     
-    @IBOutlet weak var TextField: UITextField!
-    
+   
     @IBAction func TButtonClicked(_ sender: Any) {
         if (TextField.text?.isEmpty)!
         {
@@ -57,8 +62,8 @@ class ViewController: UIViewController {
         else{
             TextLabel.text = TextField.text
         }
-        
-        
     }
+    
+    
 }
 

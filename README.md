@@ -4,9 +4,8 @@
 This app allows you to view text and be able to change the text to something else and even change the text color. You can also change the background of the app as well by simply pressing the background color button.
 
 ### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
 
-<img src="YOUR_GIF_URL_HERE" width=200><br>
+<img src="https://i.imgur.com/BqQxM0E.gif" width=200><br>
 
 ### Required User Stories
 - [x] 1. User sees custom text in a label - Hello from {name}!
@@ -21,4 +20,6 @@ This app allows you to view text and be able to change the text to something els
    - [x] a. User can enter text into a text field using the keyboard.
    - [x] b. User can tap the "Change text string" button to update the label with the text from the text field.
    - [x] c. If the text field is empty, update label with default text string.
-   - [x] d. The keyboard is dismissed after the button has been tapped.
+   - [ ] d. The keyboard is dismissed after the button has been tapped.
+
+
